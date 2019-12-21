@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-21T17:21:31Z" name="SDET" finished-at="2019-12-21T17:22:40Z" duration-ms="68829">
+    <groups>
+    </groups>
+    <test started-at="2019-12-21T17:21:31Z" name="NewUserTest" finished-at="2019-12-21T17:22:10Z" duration-ms="38905">
+      <class name="com.sdet.SDET.Newuser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sdet.SDET.Newuser@6b419da]" started-at="2019-12-21T12:21:31Z" name="setUp" finished-at="2019-12-21T12:21:39Z" duration-ms="7991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newusertest()[pri:0, instance:com.sdet.SDET.Newuser@6b419da]" started-at="2019-12-21T12:21:39Z" name="newusertest" finished-at="2019-12-21T12:22:10Z" duration-ms="30786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newusertest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.sdet.SDET.Newuser@6b419da]" started-at="2019-12-21T12:22:10Z" name="closebrowser" finished-at="2019-12-21T12:22:10Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.sdet.SDET.Newuser -->
+    </test> <!-- NewUserTest -->
+    <test started-at="2019-12-21T17:22:10Z" name="Filterstest" finished-at="2019-12-21T17:22:40Z" duration-ms="29805">
+      <class name="com.sdet.SDET.Filters">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sdet.SDET.Filters@3bd40a57]" started-at="2019-12-21T12:22:10Z" name="setUp" finished-at="2019-12-21T12:22:17Z" duration-ms="7078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Filterstest()[pri:0, instance:com.sdet.SDET.Filters@3bd40a57]" started-at="2019-12-21T12:22:17Z" name="Filterstest" finished-at="2019-12-21T12:22:40Z" duration-ms="22644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filterstest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.sdet.SDET.Filters@3bd40a57]" started-at="2019-12-21T12:22:40Z" name="closebrowser" finished-at="2019-12-21T12:22:40Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.sdet.SDET.Filters -->
+    </test> <!-- Filterstest -->
+  </suite> <!-- SDET -->
+</testng-results>

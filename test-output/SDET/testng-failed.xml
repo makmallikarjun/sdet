@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [SDET]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="Filterstest(failed)">
+    <classes>
+      <class name="com.sdet.SDET.Filters">
+        <methods>
+          <include name="setUp"/>
+          <include name="closebrowser"/>
+          <include name="Filterstest"/>
+        </methods>
+      </class> <!-- com.sdet.SDET.Filters -->
+      <class name="com.sdet.SDET.Newuser">
+        <methods>
+          <include name="setUp"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.sdet.SDET.Newuser -->
+    </classes>
+  </test> <!-- Filterstest(failed) -->
+  <test parallel="tests" name="NewUserTest(failed)">
+    <classes>
+      <class name="com.sdet.SDET.Filters">
+        <methods>
+          <include name="setUp"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.sdet.SDET.Filters -->
+      <class name="com.sdet.SDET.Newuser">
+        <methods>
+          <include name="setUp"/>
+          <include name="newusertest"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.sdet.SDET.Newuser -->
+    </classes>
+  </test> <!-- NewUserTest(failed) -->
+</suite> <!-- Failed suite [SDET] -->

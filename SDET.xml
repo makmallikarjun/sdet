@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SDET" parallel="tests" thread-count="1">
+	<test name="NewUserTest">
+		<classes>
+			<class name="com.sdet.SDET.Newuser">
+				<methods>
+					<include name="newusertest"></include>												 
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Filterstest">
+		<classes>
+			<class name="com.sdet.SDET.Filters">
+				<methods>
+					<include name="Filterstest"></include>												 
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</suite>
